@@ -361,8 +361,8 @@ main {
 }
 
 .avatar-box {
-  background: var(--bg-gradient-onyx);
-  border-radius: 20px;
+  background: var(--text-gradient-yellow);
+  border-radius: 50%;
   animation: bounce 5s infinite;
   transform-origin: center;
 }
@@ -1482,7 +1482,7 @@ textarea.form-input::-webkit-resizer {
     justify-content: center;
     width: 200px;
     height: 200px;
-    background: linear-gradient(to right, hsl(45, 55%, 50%), hsl(34, 31%, 31%));
+    background: var(--text-gradient-yellow);
   }
 
   .avatar-box img {
