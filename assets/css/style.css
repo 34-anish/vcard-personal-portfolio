@@ -374,6 +374,7 @@ main {
 }
 
 .info-content .title {
+  margin-top: 1em;
   color: var(--white-1);
   background: var(--onyx);
   font-size: var(--fs-8);
@@ -547,6 +548,7 @@ main {
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
   line-height: 1.6;
+  text-align: justify;
 }
 
 .about-text p {
@@ -580,6 +582,7 @@ main {
   border-radius: 14px;
   box-shadow: var(--shadow-2);
   z-index: 1;
+  text-align: justify;
 }
 
 .service-item::before {
@@ -1471,11 +1474,23 @@ textarea.form-input::-webkit-resizer {
   }
 
   .avatar-box {
-    border-radius: 30px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(to right, hsl(45, 55%, 50%), hsl(34, 31%, 31%));
   }
 
   .avatar-box img {
-    width: 120px;
+    /* width: auto; */
+    /* height: 100%; */
+    /* Adjust height to match the container */
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    /* Ensures the image scales without distortion */
   }
 
   .info-content .name {
@@ -2074,7 +2089,7 @@ textarea.form-input::-webkit-resizer {
   }
 
   .avatar-box img {
-    width: 150px;
+    width: 200px;
   }
 
   .info-content .name {
