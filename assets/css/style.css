@@ -460,7 +460,7 @@ main {
 
 .contact-info :is(.contact-link, time, address) {
   color: var(--white-2);
-  font-size: 0.74em;
+  font-size: x-small;
 }
 
 .contact-info address {
